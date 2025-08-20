@@ -1,0 +1,121 @@
+/* Styles go here */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.container {
+    width: 460px;
+    text-align: center;
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+html,
+body {
+    min-width: 500px;
+    min-height: 500px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+input#analyze {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input#analyze:hover {
+    background-color: #0056b3;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input styling */
+#apiKeyInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.2s ease;
+}
+
+#apiKeyInput:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004085;
+}
+
+#output {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    display: flexbox;
+    
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Comment Analyzer using GenAI</title>
+
+    <!-- Load styles -->
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Youtube Analyzer</h1>
+        <h2>Leveraging GenAI to analyze the youtube video Comment</h2>
+        <!-- <input id="text" placeholder="Enter text here"> -->
+
+        <div id="apiKeySection">
+            <div>
+                <input type="password" id="apiKeyInput" placeholder="Enter Youtube API Key" required>
+            </div>
+            <button id="saveApiKey">Save</button>
+        </div>
+        <div id="mainContent" style="display: none;">
+            <div>
+                <input type="submit" id="analyze" value="Start Analysis"/>
+            </div>
+            <div>
+                <button id="clearApiKey">Clear API Key</button>
+            </div>
+            <div id="output">
+            </div>
+            <canvas id="sentimentChart" width="400" height="200"></canvas>
+        </div>
+    </div>
+</body>
+
+</html>
