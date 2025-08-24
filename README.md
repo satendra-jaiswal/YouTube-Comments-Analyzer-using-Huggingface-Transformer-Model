@@ -1,23 +1,23 @@
-# youtube-comeent-analyzer-using-huggingface
+# Youtube-Coment-Analyzer-using-Huggingface-Transformer-Model
 Youtube comment analyzer is a browser extension that uses the huggingface transformer[*Transformer.js*] model and provides sentiment for a given video.
 
 Transformer Model used for Sentiment Analysis: `Xenova/distilbert-base-uncased-finetuned-sst-2-english`
 
 This extension requires a Youtube API Key (YoutubeApiV3) which can be generated from [Google Cloud](https://console.cloud.google.com/).
-![](https://github.com/princejaiswal03/youtube-comeent-analyzer-using-huggingface/blob/main/public/icons/ycm-api-key-add.jpg)
+![](https://github.com/satendra-jaiswal/Youtube-Coment-Analyzer-using-Huggingface-Transformer-Model/blob/main/public/icons/ycm-api-key-add.jpg)
 
 Have the option to clear the API key as well:
 
-![](https://github.com/princejaiswal03/youtube-comeent-analyzer-using-huggingface/blob/main/public/icons/ycm-spinner.png)
+![](https://github.com/satendra-jaiswal/Youtube-Coment-Analyzer-using-Huggingface-Transformer-Model/blob/main/public/icons/ycm-spinner.png)
 
 The final Analysis will have bar charts and some other stats:
-![](https://github.com/princejaiswal03/youtube-comeent-analyzer-using-huggingface/blob/main/public/icons/ycm-analysis.png)
+![](https://github.com/satendra-jaiswal/Youtube-Coment-Analyzer-using-Huggingface-Transformer-Model/blob/main/public/icons/ycm-analysis.png)
 
 ## Getting Started
 1. Clone the repo and enter the project directory:
     ```bash
-    git clone https://github.com/princejaiswal03/youtube-comeent-analyzer-using-huggingface.git
-    cd youtube-comeent-analyzer-using-huggingface/
+    git clone https://github.com/satendra-jaiswal/Youtube-Coment-Analyzer-using-Huggingface-Transformer-Model.git
+    cd Youtube-Coment-Analyzer-using-Huggingface-Transformer-Model/
     ```
 1. Install the necessary dependencies:
     ```bash
